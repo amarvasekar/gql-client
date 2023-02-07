@@ -5,7 +5,8 @@ import Pages from "./pages";
 import { ApolloProvider, ApolloClient, InMemoryCache } from "@apollo/client";
 
 const client = new ApolloClient({
-  uri: "https://space-courses-api.herokuapp.com/", // change to YOUR own production server
+  // Production URL
+  uri: "hhttps://gql-server-production.up.railway.app/", // change to YOUR own production server
   cache: new InMemoryCache(),
   name: "web",
   version: "1.0",
