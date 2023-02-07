@@ -6,7 +6,7 @@ import { ApolloProvider, ApolloClient, InMemoryCache } from "@apollo/client";
 
 const client = new ApolloClient({
   // Production URL
-  uri: "hhttps://gql-server-production.up.railway.app/", // change to YOUR own production server
+  uri: "https://gql-server-production.up.railway.app/", // change to YOUR own production server
   cache: new InMemoryCache(),
   name: "web",
   version: "1.0",
